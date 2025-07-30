@@ -1,0 +1,104 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    color: #007bff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.navBar {
+    background-color: white;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+    border-radius: 16px;
+}
+.navBar > ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navBar a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.navBar a:hover {
+    color: #61a9f6;
+}
+
+.burger-line {
+    width: 100%;
+    height: 3px;
+    background-color: #007bff;
+    margin: 4px 0;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.burger-bar-btn {
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: all 0.3s ease;;
+}
+.burger-bar-btn.active {
+    left: 45%;
+}
+
+
+@media (max-width: 525px) {
+    body {
+        margin: 25px;
+    }
+    .navBar {
+        width: 50%;
+        height: 100vh; /* visiual height */
+        position: fixed;
+        background-color: white;
+        border-radius: 0px;
+        padding-top: 75px;
+        top: 0;
+        left: -100%; /* Start out of screen */
+        transition: all 0.3s ease; /* slide animation */
+        z-index: 1000;
+    }
+    .navBar.show {
+        left: 0;
+    }
+    
+    .navBar > ul {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    
+    .navBar li {
+        padding: 15px 0;
+        border-bottom: 1px solid #007bff;
+    }
+    .burger-bar-btn {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 1001;
+        position: fixed;
+    }
+    .burger-bar-btn:hover {
+        transform: scale(1.1);
+    }
+}
