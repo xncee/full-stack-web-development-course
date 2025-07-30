@@ -33,12 +33,13 @@ body {
   margin-bottom: 15px;
   border-radius: 8px;
   object-position: center center;
-  object-fit: contain;
+  object-fit: cover;
 }
 .project-image:hover {
   transform: scale(1.05) rotate(1deg);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
+  object-fit: contain;
 }
 
 .project-title {
@@ -123,6 +124,9 @@ body {
   .project {
     width: 100%;
     margin-bottom: 25px;
+  }
+  .project-image {
+    object-fit: scale-down;
   }
   .project-title {
     font-size: 1.5rem;
