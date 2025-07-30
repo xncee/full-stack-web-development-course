@@ -3,25 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>xncee/full-stack-web-dev</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <nav>
-            <h1>Projects</h1>
-            <ul>
+    <div id="main">
+        <section>
+            <button class="burger-bar-btn" id="burgerBtn">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </button>
+            <nav class="navBar">
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <h1 class="header" id="projects">Projects</h1>
+            <ol>
                 <li>
                     <a href="./projects/1.resume/">
-                        Project1: Resume website
+                        Resume website
                     </a>
                 </li>
                 <li>
                     <a href="./projects/2.projects-showcase/">
-                        Project2: Projects showcase website
+                        Projects showcase website
                     </a>
                 </li>
+            </ol>
+        </section>
+        <section>
+            <h1 class="header" id="courses">Courses</h1>
+            <ul>
+                <li>
+                    The Ultimate JavaScript Series <a href="https://codewithmosh.com/p/ultimate-javascript-series">(Code with Mosh)</a>
+                </li>
+                <li>
+                    
+                </li>
+                <li>
+                    
+                </li>
+                <li>
+                    
+                </li>
             </ul>
-        </nav>
+        </section>
+        <section>
+            <h1 class="header" id="resources">Resources</h1>
+            <ul>
+                <li>
+                    
+                </li>
+                <li>
+                    
+                </li>
+                <li>
+                    
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
+        </section>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
