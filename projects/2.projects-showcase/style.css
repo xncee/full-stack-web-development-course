@@ -48,6 +48,22 @@ body {
   margin: 0 0 10px 0;
 }
 
+.project-links {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.project-links > a:hover {
+  color: #007bff;
+}
+
+.disabled {
+  color: #b0b0b0;
+  pointer-events: none;
+  cursor: default;
+}
+
 .project-text {
   line-height: 1.5;
   margin: 0;

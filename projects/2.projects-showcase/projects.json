@@ -1,0 +1,41 @@
+[
+    {
+        "images": ["assets/images/clinxra1.png"],
+        "title": "Clinxra - Clinical Management App",
+        "links": [{"title": "Github Repository"}],
+        "description": "Clinxra is a soon-to-launch, cross-platform clinical management system built for modern healthcare providers. Designed with scalability and modularity in mind, the platform enables clinics to efficiently manage appointments, patients, staff, and expenses."
+    },
+    {
+        "images": ["assets/images/todo-light.png"],
+        "title": "Simple ToDo app",
+        "links": [
+            {"title": "Github Repository", "href": "https://github.com/xncee/todo-list"},
+            {"title": "Live Demo", "href": "https://todo-list-gold-nu-72.vercel.app/"}
+        ],
+        "description": "A basic toDo list app built as a practice project while learning React. It is a simple CRUD application that allows users to manage tasks with create, read, update, and delete operations. Tasks are stored using local browser storage, ensuring data persists between sessions without the need for a backend."
+    },
+    {
+        "images": ["assets/images/document-archive-system.png"],
+        "title": "Document Archive System",
+        "links": [
+            {"title": "Github Repository", "href": "https://github.com/xncee/document-archive-application"}
+        ],
+        "description": "A desktop application for archiving and managing documents, built using Java, JavaFX, and SQL Server. This project follows the MVC architecture and was developed primarily as a practice exercise in Object-Oriented Programming (OOP), SQL, design patterns, and layered software design."
+    },
+    {
+        "images": ["assets/images/food-ordering-system.png"],
+        "title": "Food Ordering CLI",
+        "links": [
+            {"title": "Github Repository", "href": "https://github.com/xncee/food-ordering-cli"}
+        ],
+        "description": "A command-line food ordering system developed in Java for my university OOP course. It features user login, balance tracking, order history, menu browsing, and restaurant listings. JSON files are used for data persistence, simulating real-world functionality without a database. The project demonstrates core OOP principles in action."
+    },
+    {
+        "images": ["assets/images/healthcare-information-system.png"],
+        "title": "Healthcare Information System",
+        "links": [
+            {"title": "Github Repository", "href": "https://github.com/xncee/healthcare-management-cli"}
+        ],
+        "description": "A command-line healthcare information system built in Java for my university OOP course. It supports managing patients, doctors, appointments, and medical records. JSON files were used for data persistence, simulating real-world application behavior without a database. The project applies core OOP principles like encapsulation and inheritance."
+    }
+]
